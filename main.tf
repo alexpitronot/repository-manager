@@ -1,8 +1,7 @@
 resource "github_repository" "demo-1" {
   name             = "demo-1"
   description      = "A demo GitHub repository created by Terraform"
-  private          = false
-  homepage_url     = "https://wahlnetwork.com/"
+  private          = false  
   has_projects     = false
   has_wiki         = false
   has_downloads    = false
@@ -14,8 +13,7 @@ resource "github_repository" "demo-1" {
 resource "github_repository" "demo-2" {
   name             = "demo-2"
   description      = "A demo GitHub repository created by hand and imported into Terraform"
-  private          = false
-  homepage_url     = "https://wahlnetwork.com/"
+  private          = false  
   has_projects     = false
   has_wiki         = false
   has_downloads    = false
