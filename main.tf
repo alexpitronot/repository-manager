@@ -3,6 +3,7 @@ resource "github_repository" "demo-1" {
   description      = "A demo GitHub repository created by Terraform"
   private          = false  
   has_projects     = false
+  has_readme       = true
   has_wiki         = false
   has_downloads    = false
   has_issues       = true

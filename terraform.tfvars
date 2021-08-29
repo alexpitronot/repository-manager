@@ -1,2 +1,2 @@
-github_token = "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"
+github_token = "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"
 github_user = "alexpitronot"
