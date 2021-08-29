@@ -5,6 +5,9 @@ terraform {
 }
 
 provider "github" {
-  organization = "alexpitronot"
   token        = var.github_token
+}
+
+data "github_user" "alexpitronot" {
+  username = "alexpitronot"
 }
